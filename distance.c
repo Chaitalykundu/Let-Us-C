@@ -2,16 +2,17 @@
 int main()
 {
     float km, m, f, i, c;
-    printf("\n Enter the distance between two cities in km: ");
+    printf("\Enter the distance in km: ");
     scanf("%f",&km);
     m= 1000 * km;
     f= 3.28084 * m;
     i= 12 *f;
-    c=1000000* km;
-    printf("\ndistance in metre: %ff", m);
+    c=100000* km;
+    printf("\ndistance in metre: %f", m);
     printf("\ndistance in feet: %f", f);
     printf("\ndistance in inches: %f", i);
     printf("\ndistance in centimetre: %f", c);
     return 0;
 }
+
 
