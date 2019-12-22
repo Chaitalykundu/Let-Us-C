@@ -2,7 +2,7 @@
 int main()
 {
     float km, m, f, i, c;
-    printf("\Enter the distance in km: ");
+    printf("\nEnter the distance in km: ");
     scanf("%f",&km);
     m= 1000 * km;
     f= 3.28084 * m;
