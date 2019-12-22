@@ -8,11 +8,6 @@ int main()
     f= 3.28084 * m;
     i= 12 *f;
     c=100000* km;
-    printf("\ndistance in metre: %f", m);
-    printf("\ndistance in feet: %f", f);
-    printf("\ndistance in inches: %f", i);
-    printf("\ndistance in centimetre: %f", c);
+    printf("\ndistance in metre: %f \n> in feet: %f  \n> in inches: %f \n> in centimetre: %f", m,f,i,c);
     return 0;
 }
-
-
