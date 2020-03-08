@@ -11,5 +11,5 @@ int main()
     d=(n%100)/10;
     e=n%10;
     r=((10000*e)+(1000*d)+(100*c)+(10*b)+a);
-    printf("reverse is is: %d",r);
+    printf("reverse is: %d",r);
 }
