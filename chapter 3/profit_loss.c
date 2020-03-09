@@ -2,7 +2,6 @@
  write a program to determine if the seller has made profit or incurred loss.
  also determine how much profit he made or loss he incurred */
 
-
 #include<stdio.h>
 int main()
 {
