@@ -7,6 +7,8 @@ int main()
     l=j/i*i;
     a=i/j*j;
     b=j/i*i;
-    printf("%d\n%d\n%f\n%f\n",k,l,a,b);
+    printf("%d %d %f %f\n",k,l,a,b);
     return 0;
 }
+
+/* output: 0 2 0.0 2.0 */
