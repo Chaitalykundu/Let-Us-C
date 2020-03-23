@@ -8,3 +8,5 @@ int main()
     printf("%d\n",d);
     return 0;
 }
+
+/* output: 2 */
