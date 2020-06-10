@@ -9,4 +9,4 @@ int main()
     return 0;
 }
 
-/* Output: 58 200  */
+/* Output: 0 200  */
