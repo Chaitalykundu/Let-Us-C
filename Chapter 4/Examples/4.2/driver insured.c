@@ -10,7 +10,8 @@
 #include<stdio.h>
 int main()
 {
-    int marriage_status, sex, age;
+    char marriage_status, sex;
+    int age;
     printf("Enter marriage_status, sex, age: ");
     scanf("%c %c %d", &marriage_status, &sex, &age);
 
@@ -20,3 +21,4 @@ int main()
     else
         printf("the driver should not be insured");
 }
+
