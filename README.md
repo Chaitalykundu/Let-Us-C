@@ -13,10 +13,10 @@ Chapter 7 -- Case Control Instruction
 Chapter 8 -- Functions
 Chapter 9 -- Pointers
 Chapter 10 -- Recursion
-Chapter 11-- Data Type Revisited
+Chapter 11 -- Data Type Revisited
 Chapter 12 -- The C Preprocessor
 Chapter 13 -- Arrays
-Chapter 14 -- Mulltidimensional Arras
+Chapter 14 -- Mulltidimensional Arrays
 Chapter 15 -- Strings
 Chapter 16 -- Handling Multiple Strings
 Chapter 17 -- Structures
