@@ -8,6 +8,7 @@ int main()
     a=i/j*j;
     b=j/i*i;
     printf("%d %d %f %f\n",k,l,a,b);
+    scanf("%d %d %d %d", &k&l&m&n)
     return 0;
 }
 
