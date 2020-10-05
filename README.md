@@ -27,7 +27,7 @@
 | Chapter 11 |  Data Type Revisited   |
 | Chapter 12 |  The C Preprocessor   |
 | Chapter 13 |  Arrays   |
-| Chapter 14 |  Mulltidimensional Arrays   |
+| Chapter 14 |  Multidimensional Arrays  |
 | Chapter 15 |  Strings   |
 | Chapter 16 |  Handling Multiple Strings   |
 | Chapter 17 |  Structures   |
