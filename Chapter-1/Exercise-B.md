@@ -5,7 +5,7 @@
 
 &nbsp;
 
-# Ans:  Valid or Invalid Variable name in C Language
+# **Ans**:  Valid or Invalid Variable name in C Language
 
 &nbsp;--------------------------------------------------
 &nbsp;
@@ -26,5 +26,4 @@
 | **stack-queue** | ***Invalid*** | No special symbol (except underscore _) can be used as variable name.  |
 | **variable name** | ***Invalid*** | No commas or blanks are used as variable name. |
 | **%name%** | ***Invalid*** | No special symbol (except underscore _) can be used as variable name. |
-| **salary** | ***Valid*** |  |
-|  |  |
+| **salary** | ***Valid*** | |

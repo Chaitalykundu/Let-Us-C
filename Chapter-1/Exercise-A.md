@@ -3,12 +3,10 @@
 
 > ## '3.15' , 35,550 , 3.25e2 , 2e-3 , 'eLearning' , "show" , 'Quest' , 2^3 , 4 6 5 2
 
-## Valid or Invalid constant in C Language
+# **Ans**:  Valid or Invalid constant in C Language
 
 &nbsp;--------------------------------------------------
 &nbsp;
-
------------------------------------------------ &nbsp;
 
 | Value | Valid or Invalid | Reason |
 |------ | ---------------- | ------ |
@@ -21,4 +19,3 @@
 | **'Quest'** | ***Invalid*** | A Character constant can contain only one character. |
 | **2^3** | ***Invalid*** | Power can't be expressed in this way  |
 | **4 6 5 2** | **Invalid** | No commas or blanks are allowed within an integer |
-| | |
