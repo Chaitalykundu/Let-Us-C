@@ -36,4 +36,3 @@
 | Chapter 20 |  More Issues In Input/Output   |
 | Chapter 21 |  Operations On Bits   |
 | Chapter 22 |  Miscellaneous Features   |
-|
