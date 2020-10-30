@@ -4,6 +4,7 @@ Date: 05-10-2020 */
 /* Calculate simple interest. */
 
 #include<stdio.h>
+
 /* main function */
 int main()
 {
