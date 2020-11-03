@@ -15,7 +15,7 @@
 | **3.25e2** | ***Valid*** | Exponential form |
 | **2e-3** | ***Valid*** | Exponential form |
 | **'eLearning'** | ***Invalid*** | A Character constant can contain only one character. |
-| **"show"** | ***Valid*** | This is a string Character constant. It can contain ore than one character. |
+| **"show"** | ***Valid*** | This is a string Character constant. It can contain more than one character. |
 | **'Quest'** | ***Invalid*** | A Character constant can contain only one character. |
 | **2^3** | ***Invalid*** | Power can't be expressed in this way  |
 | **4 6 5 2** | **Invalid** | No commas or blanks are allowed within an integer |
