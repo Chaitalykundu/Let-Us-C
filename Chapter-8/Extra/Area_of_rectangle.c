@@ -1,3 +1,9 @@
+/* Author: Chaitaly Kundu
+Date: 06-11-2020 */
+
+/* Calculate the area of rectangle using function */
+
+
 #include<stdio.h>
 
 
