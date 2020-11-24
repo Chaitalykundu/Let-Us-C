@@ -1,0 +1,5 @@
+{
+       "editor.multiCursorModifier": "ctrlCmd",
+       "editor.cursorBlinking": "smooth",
+       "editor.cursorSmoothCaretAnimation": true
+}
