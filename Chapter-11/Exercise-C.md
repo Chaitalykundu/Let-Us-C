@@ -8,7 +8,7 @@
 
 ## Ans: False
 
-```md
+```
 The value of an ***static*** storage clas variable persists between various function invocations.
 ```
 
@@ -20,7 +20,7 @@ The value of an ***static*** storage clas variable persists between various func
 
 ## Ans: False
 
-```md
+```
 If the CPU registers are not available, the register storage class variables are treated as ***Automatic*** storage class
 ```
 
@@ -40,7 +40,7 @@ If the CPU registers are not available, the register storage class variables are
 
 ## Ans: False
 
-```md
+```
 If we try to use register storage class for a float variable the compiler ***won't*** report an error message. ***The compiler will treat this as Automatic storage class variable.***
 ```
 
@@ -52,6 +52,6 @@ If we try to use register storage class for a float variable the compiler ***won
 
 ## Ans: False
 
-```md
+```
 If we try to use register storage class for a float variable the compiler ***won't*** report an error message. ***The compiler will treat this as Automatic storage class variable.***
 ```
