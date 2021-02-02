@@ -3,7 +3,7 @@ Purpose : Learn C completely from Let us C, Complete #challengeAnshika
 Date : 8th Jan, 2021 */
 
 
-// Topic : Pointer (Call by Value)
+// Topic : Pointer (Call by Reference)
 
 
 #include<stdio.h>
