@@ -1,5 +1,5 @@
 /* Author : Chaitaly Kundu
-Date : 8th Jan, 2021 */
+Date : 2nd feb, 2021 */
 
 
 // Topic : Factorial using function
