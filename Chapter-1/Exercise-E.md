@@ -13,7 +13,11 @@ int main()
 }
 ```
 
-> ### Error: We can't write multiple datatype in one line separating by Commas. We've to use a statement terminator i.e ; after the datatypes. Like: int a; float b; int c; and all
+>>>
+    ### Error: We can't write multiple datatype in one line separating by Commas. We've to use a statement terminator i.e ; after the datatypes. 
+ 
+    Like: int a; float b; int c; and all
+>>>
 
 &nbsp;
 
@@ -60,4 +64,4 @@ int main()
 }
 ```
 
-> ### There will be statement terminator in every line
+> ### Error: There will be statement terminator in every line
