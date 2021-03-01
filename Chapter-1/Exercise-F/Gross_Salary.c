@@ -18,10 +18,10 @@ int main()
     /* dearness allowance and house rent allowance calculate */
     dearness_allowance = basic_salary * 40 /100;
     house_rent_allowance = basic_salary * 20 /100;
-    
+
 
     /* gross salary calculate */
-    gross_salary = basic_salary - (dearness_allowance + house_rent_allowance);
+    gross_salary = basic_salary + (dearness_allowance + house_rent_allowance);
     printf("Gross salary is %f", gross_salary);
     return 0;
 }
