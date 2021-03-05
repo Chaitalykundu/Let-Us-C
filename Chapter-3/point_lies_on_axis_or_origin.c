@@ -17,5 +17,5 @@ int main()
     else if(x==0 && y==0)
         printf("\nPoint lies on the origin");
     else
-        printf("\nplease give proper value");
+        printf("\nplease enter proper value");
 }
