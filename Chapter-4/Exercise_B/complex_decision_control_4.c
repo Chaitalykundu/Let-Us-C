@@ -5,6 +5,7 @@ int main()
     j=(num<0?0:num*num);
     printf("%d",j);
     printf("\n%d",num);
+    return 0;
 }
 
 
