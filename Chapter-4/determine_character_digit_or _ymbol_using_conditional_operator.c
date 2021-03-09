@@ -4,9 +4,9 @@ Determine if the character is a capital letter, a small letter, a digit or a spe
 #include<stdio.h>
 int main()
 {
-    int ch;
+    char ch;
     printf("Enter a character: ");
-    scanf("%d",&ch);
+    scanf("%c",&ch);
 
-    (ch>=65 && ch<=90)? printf("Uppercase Alphabet"):(ch>=90 && ch<=122)?printf("Lowercase Alphabet"):(ch>=48 && ch<=57)? printf("Digit"):printf("Special Symbol");
+    (ch>=65 && ch<=90)? printf("Uppercase Alphabet"):((ch>=90 && ch<=122)?printf("Lowercase Alphabet"):((ch>=48 && ch<=57)? printf("Digit"):printf("Special Symbol")));
 }

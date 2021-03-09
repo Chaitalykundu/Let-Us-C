@@ -3,9 +3,9 @@
 #include<stdio.h>
 int main()
 {
-    int ch;
+     char ch;
     printf("Enter a character: ");
-    scanf("%d",&ch);
+    scanf("%c",&ch);
 
     if(ch>=65 && ch<=90)
         printf("\nCharacter is a Capital letter");
@@ -14,5 +14,6 @@ int main()
     else if(ch>=48 && ch<=57)
         printf("\nCharacter is a Digit");
     else
-       printf("\nCharacter is a Special Character");
+        printf("\nCharacter is a Special Character");
+    return 0;
 }
