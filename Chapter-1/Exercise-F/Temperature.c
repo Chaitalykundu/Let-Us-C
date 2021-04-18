@@ -14,6 +14,6 @@ int main()
 
     /*  Temperature calculation in centigrade*/
     c = ((f-32)/9)*5;
-    printf("\n Temperature in centigrade is %f ",c);
+    printf("\nTemperature in centigrade is %f ",c);
     return 0;
 }
