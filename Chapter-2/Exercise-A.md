@@ -61,7 +61,7 @@
 # (h)   area of circle=3.14*r*r;
 ```
 
-> Error: No banks are allowed in variable name
+> Error: No blank spaces are allowed in variable name
 
 &nbsp;
 
@@ -77,7 +77,7 @@
 # (j)   slope = (y2-y1) ./. (x2-x1);
 ```
 
-> Error: C doesn't allows this type of divide sign. only / is valid as divide sign
+> Error: C doesn't allow this type of division sign. only / is valid as divide sign
 
 &nbsp;
 
