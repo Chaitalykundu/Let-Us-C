@@ -1,6 +1,4 @@
 /*accept a five-digit no and print the sum of digits */
-
-
 #include<stdio.h>
 int main()
 {
@@ -12,10 +10,6 @@ int main()
     c=(n%1000)/100;
     d=(n%100)/10;
     e=n%10;
-
-    // Sum Calculate
     s=a+b+c+d+e;
-
     printf("sum is: %d",s);
-    return 0;
 }
