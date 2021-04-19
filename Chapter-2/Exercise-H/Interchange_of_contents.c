@@ -16,7 +16,7 @@ int main()
     c=d;
     d=t;
 
-    printf("\nNew number in location is %d", c);
-    printf("\nNew number in location is %d", d);
+    printf("\nNew number in location C is %d", c);
+    printf("\nNew number in location D is %d", d);
     return 0;
 }

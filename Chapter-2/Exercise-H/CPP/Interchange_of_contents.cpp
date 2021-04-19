@@ -20,7 +20,7 @@ int main()
     c=d;
     d=t;
 
-    cout << "\nNew number in location is " << c;
-    cout << "\nNew number in location is " << d;
+    cout << "\nNew number in location C is " << c;
+    cout << "\nNew number in location D is " << d;
     return 0;
 }
