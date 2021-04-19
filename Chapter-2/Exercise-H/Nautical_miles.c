@@ -1,7 +1,7 @@
 /* Author : Chaitaly Kundu
 Date: 18-04-21 */
 
-/* WAP to receive  Cartesian co-ordinates (x,y) of a point and convert them into polar co-ordinates (r,theta) */
+/* WAP to receive the latitude and longitude in degrees of two places on the earth and output the distance between in nautical miles */
 
 #include<stdio.h>
 #include<math.h>
