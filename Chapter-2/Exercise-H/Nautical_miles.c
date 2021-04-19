@@ -1,5 +1,5 @@
 /* Author : Chaitaly Kundu
-Date: 18-04-21 */
+Date: 19-04-21 */
 
 /* WAP to receive the latitude and longitude in degrees of two places on the earth and output the distance between in nautical miles */
 
@@ -11,12 +11,13 @@ int main()
 {
     float l1, l2, g1, g2, d;
 
-    printf("Enter the Latitude in degrees: ");
+    printf("Enter the Latitude: ");
     scanf("%f %f" ,&l1,&l2);
 
-    printf("Enter the Longitude in degrees: ");
+    printf("Enter the Longitude: ");
     scanf("%f %f" ,&g1,&g2);
 
+    // Latitude and Longitude in degrees
     l1 = l1 * PI / 180;
     l2 = l2 * PI / 180;
     g1 = g1 * PI / 180;
