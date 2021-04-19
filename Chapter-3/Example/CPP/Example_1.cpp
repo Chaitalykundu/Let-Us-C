@@ -5,28 +5,31 @@ Date: 12th October, 2020 */
 If quantity and price per item are input through the keyboard, write a program to calculate the total expenses. */
 
 
-#include<stdio.h>
+#include<bits/stdc++.h>
+
+using namespace std;
 
 /* main function */
 int main()
 {
-    int qyt, discount=0; /* variable declaration */
+    // variable declaration
+    int qyt, discount=0;
     float price, total;
 
-    printf("Enter the quantity of items: ");
-    scanf("%d",&qyt);
+    cout << "Enter the quantity of items: ";
+    cin >> qyt;
 
-    printf("\nEnter the price per items: ");
-    scanf("%f",&price);
+    cout << "\nEnter the price per items: ";
+    cin >> price;
 
 
-    /* Conditions */
+    // Conditions
     if(qyt>1000)
         discount=10;
 
-    /* total expenses calculation */
+    // total expenses calculation
     total=(qyt * price)-(qyt * price * discount / 100);
-    printf("\nTotal expenses is %f", total);
+    cout << "\nTotal expenses is " << total;
 
     return 0;
 }
