@@ -1,5 +1,5 @@
 /* Author: Chaitaly Kundu
-Date: 12th October, 2020 */
+   Date: 19-04-21 */
 
 /* > In a company an employee is paid as under:
     If his basic salary is less than rs 1500, then HRA is 10% basic salary and DA is 90% of basic salary.
@@ -7,14 +7,17 @@ Date: 12th October, 2020 */
     If the employee's salary is input through the keyboard, Write a program  to find his gross salary*/
 
 
-#include<stdio.h>
+#include<bits/stdc++.h>
+
+using namespace std;
+
 int main()
 {
     int basic_salary;
     float gross_salary, HRA, DA;
 
-    printf("\nEnter the salary: ");
-    scanf("%d",&basic_salary);
+    cout << "\nEnter the salary: ";
+    cin >> basic_salary;
 
     if(basic_salary<1500)
     {
@@ -28,7 +31,7 @@ int main()
     }
 
     gross_salary= basic_salary + HRA + DA;
-    printf("Gross Salary is: %f", gross_salary);
+    cout << "Gross Salary is: " << gross_salary;
 
     return 0;
 }
