@@ -6,14 +6,17 @@ Date: 19-04-21 */
    WAP to compute the smallest number of notes  that will combine to give rs N */
 
 
-#include<stdio.h>
+#include<bits/stdc++.h>
+#include<math.h>
+
+using namespace std;
 
 int main()
 {
     int n, note_of_hundred, note_of_fifty, note_of_ten, note_of_five, note_of_two, note_of_one, total_notes;
 
-    printf("Enter the amount: ");
-    scanf("%d", &n);
+    cout << "Enter the amount: ";
+    cin >> n;
 
     // Calculate the notes of 100
     note_of_hundred =n / 100;
@@ -42,6 +45,6 @@ int main()
     // Calculate smallest number of notes needed
     total_notes = note_of_hundred + note_of_fifty + note_of_ten + note_of_five + note_of_two + note_of_one;
 
-    printf("Smallest number of notes needed: %d" , total_notes);
+    cout << "Smallest number of notes needed: " << total_notes;
     return 0;
 }
