@@ -9,7 +9,7 @@ Date: 09-04-2021 */
 
 int main()
 {
-    int T,i,N,d;
+    int T,i,N,d,p;
     scanf("%d",&T);
     for(i=0;i<T;i++)
         scanf("%d",&N);
