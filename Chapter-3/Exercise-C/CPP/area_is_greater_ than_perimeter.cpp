@@ -1,4 +1,4 @@
-/*  Author : Chaitaly Kundu
+ /*  Author : Chaitaly Kundu
     Date : 20-04-21 */
 
 /* write a program to find out if the area of a rectangle is greater than it's perimeter from length=5 and breadth=4 */

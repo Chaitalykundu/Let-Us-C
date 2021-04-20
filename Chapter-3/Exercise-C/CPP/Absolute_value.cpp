@@ -11,15 +11,15 @@ using namespace std;
 
 int main()
 {
-    int i,j;
+    int i;
     cout << "Enter the no: ";
     cin >> i;
 
     if(i>=0)
-        j=i;
+        cout << i;
     else
-        j=-i;
+        cout << -i;
 
-    cout << "Absolute Value of " << i << " is "<< j;
+
     return 0;
 }
