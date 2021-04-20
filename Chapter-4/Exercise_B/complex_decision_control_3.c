@@ -9,3 +9,5 @@ int main()
     if(z>x && z>y)
         printf("biggest= %d",z);
 }
+
+// output: biggest = 45
