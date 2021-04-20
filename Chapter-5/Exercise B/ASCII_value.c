@@ -4,7 +4,6 @@ Date: 21-04-2021 */
 /* WAP to print all the ASCII values and their equivalent characters (from 0 to 255)*/
 
 #include<stdio.h>
-#include<math.h>
 
 int main()
 {
