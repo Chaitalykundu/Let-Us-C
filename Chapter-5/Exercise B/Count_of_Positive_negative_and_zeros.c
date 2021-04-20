@@ -1,5 +1,5 @@
 /* Author : Chaitaly Kundu
-Date: 13-03-2021 *?
+Date: 13-03-2021 */
 
 /* Write a program to enter numbers through keyboard till the user wants.
    At the end it should display the count of positive, negative or zeros entered*/
