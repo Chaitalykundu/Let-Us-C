@@ -1,5 +1,4 @@
-/* write a program to find out if the area of a rectangle is greater than it's perimeter */
-/* from length=5 and breadth=4 the area is greater than perimeter */
+/* write a program to find out if the area of a rectangle is greater than it's perimeter from length=5 and breadth=4  */
 
 
 #include<stdio.h>
@@ -15,5 +14,11 @@ int main()
     if(area>perimeter)
         printf("Area is greater than perimeter");
     else
-        printf("Area is lesser than or equal to perimeter");
+        {
+            if(area<perimeter)
+                printf("Area is lesser than perimeter");
+            else
+               printf("Area is equal to perimeter");
+        }
+    return 0;
 }
