@@ -5,7 +5,6 @@ Date: 21-04-2021 */
 // reverse a number
 
 #include<stdio.h>
-#include<math.h>
 
 int main()
 {
