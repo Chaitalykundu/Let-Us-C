@@ -23,7 +23,7 @@ int main()
     }
 
     if(n==1)
-        printf("Neither prime no composite");
+        printf("Neither prime nor composite");
     else
     {
         if(count==0)

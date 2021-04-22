@@ -1,6 +1,5 @@
-
 /* Author: Chaitaly Kundu
-Date: 21-04-2021 */
+Date: 22-04-2021 */
 
 /* WAP to print the prime numbers from 1 to 300 */
 
