@@ -11,9 +11,9 @@ Date: 21-04-2021 */
 int main()
 {
     int x,pos=0,neg=0,zero=0;
-    char answer;
+    char answer = 'Y';
 
-    while(1)
+    while(answer == 'Y')
     {
         printf("\nEnter the number: ");
         scanf("%d",&x);
@@ -30,9 +30,7 @@ int main()
         }
 
         printf("\nDo you want to continue? (Y/N) ");
-        answer = getchar();
-        if(answer == 'N' || answer == 'n')
-            break;
+        scanf("%d",&answer);
     }
     printf("\nPositive number = %d\nNegative number = %d\nZeros = %d\n", pos,neg,zero);
     return 0;
