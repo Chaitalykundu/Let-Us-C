@@ -1,5 +1,5 @@
 /* Author : Chaitaly Kundu
-Purpose : Learn C completely from Let us C, Complete #challengeAnshika
+Purpose : Learn C completely from Let us C
 Date : 8th Jan, 2021 */
 
 

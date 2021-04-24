@@ -1,5 +1,5 @@
 /* Author : Chaitaly Kundu
-Purpose : Learn C completely from Let us C, Complete #challengeAnshika
+Purpose : Learn C completely from Let us C
 Date : 8th Jan, 2021 */
 
 
@@ -14,6 +14,7 @@ int main()
     int a=5,b=10;
     printf("\nBefore swapping -->  a = %d and b = %d", a,b);
     swap(&a,&b);
+    printf("\nAfter swapping -->  a = %d and b = %d", a,b);
     return 0;
 }
 
@@ -23,6 +24,5 @@ int swap(int *x, int *y)
     t = *x;
     *x = *y;
     *y = t;
-    printf("\nAfter swapping -->  x = %d and y = %d", *x,*y);
 }
 
