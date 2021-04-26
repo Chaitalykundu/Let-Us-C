@@ -6,7 +6,7 @@ Date : 26-04-21 */
 
 
 #include<stdio.h>
-#include<math.h>
+
 
 int sum(int n)
 {
