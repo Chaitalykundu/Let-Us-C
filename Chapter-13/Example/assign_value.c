@@ -1,7 +1,7 @@
-/* Author: CHaitaly Kundu
+/* Author: Chaitaly Kundu
 Date: 2nd feb, 2021 */
 
-// Topic: Array 
+// Topic: Array
 /* Write a program to assign the array elements in contiguous memory location */
 
 #include<stdio.h>
@@ -9,7 +9,7 @@ Date: 2nd feb, 2021 */
 int element(int a[], int len, int *n)
 {
     int i;
-    
+
     for(i=0;i<len;i++)
     {
         *n=a[i];
