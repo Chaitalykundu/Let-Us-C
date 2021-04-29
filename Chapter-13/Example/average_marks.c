@@ -1,4 +1,4 @@
-/* Author: CHaitaly Kundu
+/* Author: Chaitaly Kundu
 Date: 5th dec, 2020 */
 
 /* Write a program to find the average marks obtained by a class of 10 students in a test */
@@ -12,10 +12,11 @@ int main()
     for(i=0;i<10;i++)
     {
         scanf("%d",&a[i]);
-    }
-
-    for(i=0;i<10;i++)
         sum = sum + a[i];
+    }
+    printf("\nSum = %d", sum);
+   // for(i=0;i<10;i++)
+
     avg = sum / 10;
-    printf("Average marks= %f",avg);
+    printf("\nAverage marks= %f",avg);
 }
