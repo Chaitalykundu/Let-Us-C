@@ -9,11 +9,15 @@ Date: 2nd feb, 2021 */
 int element(int a[], int len, int *n)
 {
     int i;
-
+    n=&a[0];
     for(i=0;i<len;i++)
     {
-        *n=a[i];
-        printf("\nMemory location is %u and array element is %d",&a[i],*n);
+        //*n=a[i];
+       // printf("\nMemory location is %u and array element is %d",&a[i],*n);
+
+                // or
+       printf("\nMemory location is %u and array element is %d",n,*n);
+       n++;
     }
 }
 int main()
