@@ -1,10 +1,7 @@
 /*  Author : Chaitaly Kundu
-    Date: 30th April,2021 */
+    Date: 30th April, 2021 */
 
-/* When interest compounds q times per year at an annual rate of r% for n years,
-the principal p compounds to an amount a as per the following
-a = p* ( 1 + r/q)^(n*q)
-WAP to read 10 sets of p, r, n, q and calculate the corresponding a's. */
+/* WAP to generate all pythagorean triples with side length less than or equal to 30 */
 
 #include<stdio.h>
 #include<math.h>
