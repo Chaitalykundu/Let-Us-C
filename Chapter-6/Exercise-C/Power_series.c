@@ -1,10 +1,9 @@
 /*  Author : Chaitaly Kundu
     Date: 30th April,2021 */
 
-/* When interest compounds q times per year at an annual rate of r% for n years,
-the principal p compounds to an amount a as per the following
-a = p* ( 1 + r/q)^(n*q)
-WAP to read 10 sets of p, r, n, q and calculate the corresponding a's. */
+/* WAP to calculate the same of seven times of this series
+((x - 1) / x )+ (1/2 ((x - 1) / x)^2 ) + (1/2 ((x - 1) / x)^3 ) + (1/2 ((x - 1) / x)^4 ) + (1/2 ((x - 1) / x)^5 ) + (1/2 ((x - 1) / x)^6 ) + (1/2 ((x - 1) / x)^7) 
+*/
 
 #include<stdio.h>
 #include<math.h>
