@@ -15,4 +15,5 @@ int main()
 
 }
 
-/* Output : blank */
+/* Output : blank
+Explanation: in loop, i=0 means false. Therefore, the loop will terminate without printing anythingand control will go to return part */

@@ -22,4 +22,6 @@ int main()
             .
             .
             .
-            infinity */
+            infinity
+
+Explanation: There is ; after for loop. So the loop will continue without incrementing the value of i*/

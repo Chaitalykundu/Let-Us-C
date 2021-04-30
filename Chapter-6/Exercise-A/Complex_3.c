@@ -21,4 +21,6 @@ int main()
 }
 
 
-/* Output : 2 */
+/* Output : 2
+Explanation: As return 0 *if inside the loop , the control will go to else and print the value.
+After his it'll go to return part and terminate the code */
