@@ -22,20 +22,20 @@
 ```
 
 > Output: \
-&nbsp; &nbsp; &nbsp; &nbsp; Learn C\
-&nbsp; &nbsp; &nbsp; &nbsp; Followed by C++, C# and Java!\
-&nbsp; &nbsp; &nbsp; &nbsp; Learn C\
-&nbsp; &nbsp; &nbsp; &nbsp; Followed by C++, C# and Java!\
-&nbsp; &nbsp; &nbsp; &nbsp; Learn C\
-&nbsp; &nbsp; &nbsp; &nbsp; Followed by C++, C# and Java!\
-&nbsp; &nbsp; &nbsp; &nbsp; Learn C\
-&nbsp; &nbsp; &nbsp; &nbsp; Followed by C++, C# and Java!\
-&nbsp; &nbsp; &nbsp; &nbsp; Learn C\
-&nbsp; &nbsp; &nbsp; &nbsp; Followed by C++, C# and Java!\
-&nbsp; &nbsp; &nbsp; &nbsp; ............ \
-&nbsp; &nbsp; &nbsp; &nbsp; ............ \
-&nbsp; &nbsp; &nbsp; &nbsp; ............ \
-&nbsp; &nbsp; &nbsp; &nbsp; Infinity times
+&emsp; &emsp; Learn C\
+&emsp; &emsp; Followed by C++, C# and Java!\
+&emsp; &emsp; Learn C\
+&emsp; &emsp; Followed by C++, C# and Java!\
+&emsp; &emsp; Learn C\
+&emsp; &emsp; Followed by C++, C# and Java!\
+&emsp; &emsp; Learn C\
+&emsp; &emsp; Followed by C++, C# and Java!\
+&emsp; &emsp; Learn C\
+&emsp; &emsp; Followed by C++, C# and Java!\
+&emsp; &emsp; ............ \
+&emsp; &emsp; ............ \
+&emsp; &emsp; ............ \
+&emsp; &emsp; Infinity times
 
 &nbsp;
 

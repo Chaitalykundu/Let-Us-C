@@ -1,16 +1,12 @@
 #include<stdio.h>
+void message();
 int main()
 {
-    int a=3, b=4, c;
-c= b-a;
-switch(c);
-{
-    case 1||2:
-        printf("God give me a chance to change things\n");
-        break;
-    case a||b:
-        printf("God give me a chance to run my show\n");
-        break;
-}
+    message(message());
     return 0;
 }
+void message()
+{
+    printf("It's a small world after all...\n");
+}
+

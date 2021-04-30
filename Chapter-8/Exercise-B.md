@@ -24,15 +24,13 @@ int addmult(int ii,int jj)
 }
 ```
 
-> Error:
->* In prototype declaration, a ; will be at the end.
->* A function cannot return 2 or more value at a time.
+> Error\
+    &emsp; &emsp; * In prototype declaration, a ; will be at the end.\
+    &emsp; &emsp; *  A function cannot return 2 or more value at a time.
 
 &nbsp;
 
-## (b)
-
-&nbsp;
+## (b
 
 ```c
 #include<stdio.h>
@@ -57,8 +55,6 @@ void message
 
 ## (c)
 
-&nbsp;
-
 ```c
 #include<stdio.h>
 int main()
@@ -74,13 +70,11 @@ printit(a, ch)
 }
 ```
 
-> Error:
+> Error: Function is not declared before defined
 
 &nbsp;
 
 ## (d)
-
-&nbsp;
 
 ```c
 #include<stdio.h>
@@ -103,8 +97,6 @@ void message();
 
 ## (e)
 
-&nbsp;
-
 ```c
 #include<stdio.h>
 int main()
@@ -124,8 +116,6 @@ int main()
 
 ## (f)
 
-&nbsp;
-
 ```c
 #include<stdio.h>
 void message();
@@ -134,10 +124,10 @@ int main()
     massage(message());
     return 0;
 }
-void message();
+void message()
 {
     printf("It's a small world after all...\n");
 }
 ```
 
-> Error: void returned by inner call to mesage() cannot be passed to the outer call
+> Error: void returned by inner call to message() cannot be passed to the outer call
