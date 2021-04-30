@@ -1,10 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int i, x = 10,  y =100 % 90;
-    for(i=1;i<=10;i++)
-        ;
-    if(x!=y)
-        printf("x= %d  y= %d\n",x,y);
+    int a=3, b=4, c;
+c= b-a;
+switch(c);
+{
+    case 1||2:
+        printf("God give me a chance to change things\n");
+        break;
+    case a||b:
+        printf("God give me a chance to run my show\n");
+        break;
+}
     return 0;
 }
