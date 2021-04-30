@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "bitset": "c",
+        "chrono": "c",
+        "algorithm": "c"
+    }
+}

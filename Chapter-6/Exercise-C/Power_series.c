@@ -11,16 +11,19 @@ WAP to read 10 sets of p, r, n, q and calculate the corresponding a's. */
 
 int main()
 {
-    float i, a, p, q, r, n, x, y;
-    for(i = 1; i<=10; i++)
+    int i;
+    float x, sum=0.0;
+    printf("Enter the value of x: ");
+    scanf("%f", &x);
+    for(i=1;i<=7;i++)
     {
-        printf("\nEnter the value of p, q, r, n: ");
-        scanf("\n%f %f %f %f", &p, &q, &r, &n );
-
-        x = ( 1 + r/q);
-        y = n*q;
-        a = p * pow(x,y);
-        printf("\nAmount is %f", a);
+        if(i == 1)
+            sum = (x - 1) / x;
+        else
+        {
+            sum = sum + (pow( (x - 1) / x, i) /2);
+        }
     }
+    printf("\nSum = %f", sum);
     return 0;
 }

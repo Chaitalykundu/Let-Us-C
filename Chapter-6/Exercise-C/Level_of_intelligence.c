@@ -1,5 +1,5 @@
-/* Author : Chaitaly Kundu
-Date: 30th April,2021 */
+/*  Author : Chaitaly Kundu
+    Date: 30th April,2021 */
 
 /*  level of intelligence => i = 2 + (y+ 0.5 *x)
     WAP that will produce a table of values of i, y, x, where y varies from 1 to 6.
