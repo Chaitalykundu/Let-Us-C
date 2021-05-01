@@ -1,7 +1,7 @@
 /*  Author : Chaitaly Kundu
     Date: 1st May, 2021 */
 
-/* scanf function */
+/* sscanf function */
 
 #include <stdio.h>
 int main()
