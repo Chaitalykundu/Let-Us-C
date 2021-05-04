@@ -11,19 +11,16 @@
                             // INCOMPLETE
 
 #include<stdio.h>
-
 int main()
 {
-    int i, space, num=1 ;
-    for(i=1; i<=4; ++i)
+    int num=4,r,c,sp,i=1;
+    for(r=1; r<=num; r++)
     {
-        for(space = 1; space<= 4-i; ++space)
-        {
+        for(sp=1; sp<=num-r; sp++)
             printf(" ");
-            printf("%d ", num);
-            ++num;
-        }
-        printf("\n");
+                for(c=1; c<=r; c++,i++)
+                    printf("%d ",i);
+            printf("\n");
     }
     return 0;
 }
