@@ -1,7 +1,7 @@
 /*  Author : Chaitaly Kundu
     Date: 5th May, 2021 */
 
-/* print Student details using global variable */
+/* print Student details using variable with datatype create part */
 
 #include<stdio.h>
 #include<string.h>
@@ -11,9 +11,8 @@ struct student{
     float mark;
     char fav_character;
     char full_name[30];
-};
+} ani , bishal, chandan;
 
-struct student ani , bishal, chandan;
 
 int main()
 {
