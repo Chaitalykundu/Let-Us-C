@@ -6,7 +6,7 @@
 #include<stdio.h>
 #include<string.h>
 
-struct student{
+struct student{             // student is structure tag
     int id;
     float mark;
     char fav_character;
