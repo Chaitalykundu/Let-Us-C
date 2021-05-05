@@ -10,7 +10,7 @@ struct student{
     int id;
     float mark;
     char fav_character;
-    char full_name[30];
+    char full_name[30];      // using array
 };
 
 int main()

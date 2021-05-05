@@ -10,7 +10,7 @@ struct student{
     int id;
     float mark;
     char fav_character;
-    char full_name[30];
+    char *full_name;       // using pointer
 } ani , bishal, chandan;
 
 
@@ -28,9 +28,9 @@ int main()
     bishal.fav_character = 'y';
     chandan.fav_character = 'x';
 
-    strcpy(ani.full_name,"Ani Paul");
-    strcpy(bishal.full_name,"Bishal Kumar");
-    strcpy(chandan.full_name,"Chandan Roy");
+    ani.full_name = "Ani Paul";
+    bishal.full_name ="Bishal Kumar";
+    chandan.full_name = "Chandan Roy";
 
     printf("Ani's i no. %d\n", ani.id);
     printf("Ani's full name is %s\n", ani.full_name);
