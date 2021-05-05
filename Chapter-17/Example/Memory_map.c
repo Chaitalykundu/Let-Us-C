@@ -15,7 +15,7 @@ struct  book b1 = {"R S agarwal", 740.25, 1190};
 
 int main()
 {
-    printf("\t\t Books details\n.........................................\n\n");
+    printf("\n\t\t Books details\n.........................................\n\n");
     printf("Name %s \tAddress = %u\n", b1.name, &b1.name );
     printf("Price %f \tAddress = %u\n", b1.price, &b1.price );
     printf("Pages %d \t\tAddress = %u\n", b1.pages, &b1.pages );
