@@ -1,7 +1,7 @@
 /*  Author : Chaitaly Kundu
     Date: 5th May, 2021 */
 
-/* print Student details using global variable */
+/* print Student details without using structure tag */
 
 #include<stdio.h>
 #include<string.h>
