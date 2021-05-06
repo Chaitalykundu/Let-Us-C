@@ -4,6 +4,7 @@
         "chrono": "c",
         "algorithm": "c",
         "typeindex": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "random": "c"
     }
 }
