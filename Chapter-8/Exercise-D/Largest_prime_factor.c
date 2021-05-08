@@ -5,14 +5,16 @@
 
 int Prime_Factor(int n)
 {
-    int i;
+    int i, max=0;
     for(i=2;i<=n;i++)
     {
         while(n % i == 0)
-        {   printf(" %d",i);
+        {
+            max = i;
             n=n/i;
         }
     }
+    return max;
 }
 
 int main()
@@ -21,6 +23,6 @@ int main()
     printf("Enter the number: ");
     scanf("%d",&n);
 
-    Prime_Factor(n);
+    printf("%d", Prime_Factor(n));
     return 0;
 }
