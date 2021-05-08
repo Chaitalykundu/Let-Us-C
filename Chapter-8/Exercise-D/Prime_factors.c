@@ -20,7 +20,7 @@ int main()
     int n;
     printf("Enter the number: ");
     scanf("%d",&n);
-
+y
     Prime_Factor(n);
     return 0;
 }
