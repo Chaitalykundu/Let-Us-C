@@ -10,9 +10,9 @@ int roman(int n)
 
 int main()
 {
-    int a, b, fact, value;
+    int year;
     printf("Enter the year: ");
-    scanf("%d",&a);
+    scanf("%d",&year);
 
     return 0;
 }
