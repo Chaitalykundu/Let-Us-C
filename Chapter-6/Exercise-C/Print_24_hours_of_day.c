@@ -10,7 +10,7 @@ int main()
 {
     int hour;
 
-    for(hour=0;hour<24;hour++)
+    for(hour=0;hour<=23;hour++)
     {
         if(hour == 0)
         {
@@ -18,24 +18,14 @@ int main()
             continue;
         }
 
-        if(hour < 12)
-        {
-            printf("%d AM\n", hour);
-            continue;
-        }
+        if(hour<12)
+           printf("%d AM\n",hour);
 
         if(hour == 12)
-        {
-            printf("12 Noon\n");
-            continue;
-        }
+           printf("12 Noon\n");
 
         if(hour > 12)
-        {
             printf("%d PM\n", hour%12);
-            continue;
-        }
-
-        return 0;
     }
+    return 0;
 }
