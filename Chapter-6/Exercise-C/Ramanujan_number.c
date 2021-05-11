@@ -4,8 +4,8 @@
 /* Ramanujan Number is the smallest number that can be expressed as sum of two cubes in two different ways.
    WAP to print all such numbers up to a reasonable limit  */
 
-   #include<stdio.h>
-#include<conio.h>
+#include<stdio.h>
+
 int main()
 {
     int i,num,x,y,count;
