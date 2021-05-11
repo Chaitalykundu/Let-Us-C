@@ -1,6 +1,6 @@
 
 /* Author: Chaitaly Kundu
-   Date: 8th May, 2021 */
+   Date: 11th May, 2021 */
 
 // WAP to print 24 hours of day with suitable suffixes like AM, PM, Noon , Midnight
 
