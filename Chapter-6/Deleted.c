@@ -1,12 +1,7 @@
-#include<stdio.h>
-void message();
+#include <stdio.h>
+  
 int main()
 {
-    message(message());
+    printf("%d", 1 << 2 + 3 << 4);
     return 0;
 }
-void message()
-{
-    printf("It's a small world after all...\n");
-}
-
