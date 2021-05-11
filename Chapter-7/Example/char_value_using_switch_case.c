@@ -18,6 +18,6 @@ int main()
             break;
         default:
             printf("\nI'm in default");
-
     }
+    return 0;
 }
