@@ -19,4 +19,4 @@ void fun(int *i, int *j)
     *j = *j * *j;
 }
 
-/* O/P: 5 2 */
+/* O/P: 25 4 */
