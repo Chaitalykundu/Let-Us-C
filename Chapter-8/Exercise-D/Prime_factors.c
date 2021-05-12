@@ -5,7 +5,7 @@
 
 int Prime_Factor(int n)
 {
-    int i;
+    int i, ;
     for(i=2;i<=n;i++)
     {
         while(n % i == 0)
@@ -20,7 +20,7 @@ int main()
     int n;
     printf("Enter the number: ");
     scanf("%d",&n);
-y
+
     Prime_Factor(n);
     return 0;
 }

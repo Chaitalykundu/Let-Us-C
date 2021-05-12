@@ -13,7 +13,7 @@ int main()
     scanf("%d",&num);
 
 
-    while(1)
+    while(1)   // while(0) means false. Program won't execute
     {
         printf("\n::::::Menu:::::\n");
         printf(" 1. Factorial:\n 2. Prime or not \n 3. Even or Odd \n 4. Exit ");
@@ -62,7 +62,7 @@ int main()
             }
 
             case 4:
-                exit(0);
+                exit(1);
 
             default:
                 printf("\nInvalid choice\n");
