@@ -14,8 +14,8 @@ int main()
 ```
 
 >>>
-    ### Error: We can't write multiple datatype in one line separating by Commas. We've to use a statement terminator i.e ; after the datatypes. 
- 
+    ### Error: We can't write multiple datatype in one line separating by Commas. We've to use a statement terminator i.e ; after the datatypes.
+
     Like: int a; float b; int c; and all
 >>>
 
