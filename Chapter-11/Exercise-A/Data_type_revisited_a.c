@@ -1,3 +1,6 @@
+/*  Author : Chaitaly Kundu
+    Date : 16th May, 2021 */
+
 #include<stdio.h>
 
 int i=0;
