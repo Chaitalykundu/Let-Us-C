@@ -16,7 +16,7 @@ int PrimeFactor(int n)
 
 int main()
 {
-    int n, factor;
+    int n;
 
     printf("Enter a number: ");
     scanf("%d",&n);
