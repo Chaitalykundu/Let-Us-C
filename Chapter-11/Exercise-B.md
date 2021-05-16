@@ -60,7 +60,7 @@ O/P: 2
 &nbsp;
 
 > Error. \
-floating constant exceeds range of 'double' in long float
+Double cannot be unsigned, and float is "out of range" warning.
 
 &nbsp;
 
