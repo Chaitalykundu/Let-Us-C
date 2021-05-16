@@ -2,25 +2,25 @@
 
 &nbsp;
 
-## (a)
+# (a)
 
-> The value of an automatic storage clas variable persists between various function invocations.
+> The value of an automatic storage class variable persists between various function invocations.
 
 ## Ans: False
 
-```
-The value of an ***static*** storage clas variable persists between various function invocations.
+```md
+The value of an ***static*** storage class variable persists between various function invocations.
 ```
 
 &nbsp;
 
-## (b)
+# (b)
 
 > If the CPU registers are not available, the register storage class variables are treated as static storage class
 
 ## Ans: False
 
-```
+```md
 If the CPU registers are not available, the register storage class variables are treated as ***Automatic*** storage class
 ```
 
@@ -46,7 +46,7 @@ If we try to use register storage class for a float variable the compiler ***won
 
 &nbsp;
 
-## (d)
+## (e)
 
 > If we try to use register storage class for a float variable the compiler will report an error message
 
