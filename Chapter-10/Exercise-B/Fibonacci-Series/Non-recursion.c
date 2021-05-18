@@ -11,7 +11,7 @@ int fibonacci(int n)
 {
     int i, a =0, b =1, c;
     printf("Fibonacci Series: \n %d %d ", a , b);
-    for(i=1;i<=n;++i)
+    for(i=1;i<=n;i++)
     {
         c = a + b;
         printf("%d ", c);
