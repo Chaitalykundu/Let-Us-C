@@ -7,28 +7,29 @@ Date : 18th May, 2021 */
 
 #include<stdio.h>
 
-int fibonacci(int n)
+void fibonacci(int n, int a, int b)
 {
-    int i, a =0, b =1, c;
-    printf("Fibonacci Series: \n %d %d ", a , b);
-    for(i=1;i<=n;i++)
-    {
+    int c;
+    if( n  == 0)
+        return;
+    else{
         c = a + b;
         printf("%d ", c);
-        a = b;
-        b = c;
+        fibonacci(n-1,b,c);
     }
 
 }
 
 int main()
 {
-    int n;
+    int n, a=0,b=1;
 
     printf("Enter the number of terms: ");
     scanf("%d",&n);
 
-    fibonacci(n);
+    printf("Fibonacci Series: \n %d %d ", a , b);
+
+    fibonacci(n,a,b);
 
     return 0;
 }
