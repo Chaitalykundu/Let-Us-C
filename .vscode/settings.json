@@ -5,6 +5,8 @@
         "algorithm": "c",
         "typeindex": "c",
         "typeinfo": "c",
-        "random": "c"
+        "random": "c",
+        "cmath": "c",
+        "complex": "c"
     }
 }
