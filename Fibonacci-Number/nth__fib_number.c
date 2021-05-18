@@ -5,6 +5,7 @@ Date : 18th May, 2021 */
 
         //         Incomplete
 
+
 #include<stdio.h>
 
 long long int fib(long long int n)
@@ -18,7 +19,7 @@ long long int fib(long long int n)
        a = b;
        b = c;
     }
-    return b;
+    return a;
 }
 
 
@@ -27,10 +28,9 @@ int main()
     long long int n, result;
 
     printf("Enter the term: ");
-    scanf("%d",&n);
+    scanf("%lld",&n);
 
 
     result = fib(n);
-    printf("%d", result);
-    return 0;
+    printf("%lld", result);
 }
