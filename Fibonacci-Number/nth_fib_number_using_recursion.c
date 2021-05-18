@@ -3,6 +3,7 @@ Date : 18th May, 2021 */
 
 /* Write a recursive function to find out the nth fibonacci number */
 
+//         Incomplete
 
 #include<stdio.h>
 
@@ -27,3 +28,5 @@ int main()
     printf("%d", result);
     return 0;
 }
+
+/* Time Complexity: T(n) = T(n-1) + T(n-2) which is exponential. */
