@@ -10,18 +10,18 @@ Date : 18th May, 2021 */
 
 int main()
 {
-    int n, i, a =0, b =1, c = a+b;
+    int n, i, a =0, b =1, c;
 
     printf("Enter the number of terms: ");
     scanf("%d",&n);
 
     printf("Fibonacci Series: \n %d %d ", a , b);
-    for(i=1;i<=n;++i)
+    for(i=1;i<=n;i++)
     {
+        c = a +  b;
         printf("%d ", c);
         a = b;
         b = c;
-        c = a +  b;
     }
     return 0;
 }
