@@ -1,8 +1,8 @@
 /* Author: CHaitaly Kundu
 Date: 10 dec, 2020 */
 
-/* Write a program to append (i) a string at the end of anither string 
-                             (ii) first n characters of a string at the end of anither string */
+/* Write a program to append (i) a string at the end of another string
+                             (ii) first n characters of a string at the end of another string */
 
 #include<stdio.h>
 #include<string.h>
@@ -36,7 +36,7 @@ int main()
     char name2[]="Chaitaly ";
     char surname2[]= "Roy";
     strncat(surname2,name2,3);            // appending middle name in name
-    printf("String one= %s",name2);    
+    printf("\nString one= %s",name2);    
     printf("\nString two= %s",surname2);
     return 0;
 }
