@@ -9,10 +9,9 @@ int main()
     char name[20];
 
     printf("Enter full name: ");
-    gets(name);     // scanf normally can't take 2 string at s time
+    scanf("%[^\n]s",name);
 
-    puts("Hello");
-    puts(name);
+    printf("Hello %s",name);
 
     return 0;
 }
