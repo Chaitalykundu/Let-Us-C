@@ -18,6 +18,7 @@ int main()
         {
             printf("\t%d",a[i][j]);
         }
+        printf("\n");
     }
     return 0;
 }
