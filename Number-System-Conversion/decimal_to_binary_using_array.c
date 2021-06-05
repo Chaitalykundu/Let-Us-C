@@ -7,19 +7,20 @@ Date : 5th June, 2021 */
 
 #include<stdio.h>
 #include<math.h>
+
 int main()
 {
     int n;
     printf("Enter a decimal number: ");
     scanf("%d",&n);
 
-    int i=0, bin_digit, num=0;
+    int i=0, j, binarray[32];
     while(n>0){
-        bin_digit = n%2;
-        num = num + (bin_digit * pow(10,i));
+        binarray[i] = n%2;
         n = n/2;
         i++;
     }
-    printf("%d",num);
+    for(j=i-1;j>=0;j--)
+        printf("%d",binarray[j]);
     return 0;
 }
