@@ -12,8 +12,8 @@ int main()
 
     printf("%d\n",ones_comp);
     printf("%x\n",ones_comp);
+    printf("%#x\n",ones_comp);
     printf("%X\n",ones_comp);
     printf("%#X\n",ones_comp);
-
     return 0;
 }
