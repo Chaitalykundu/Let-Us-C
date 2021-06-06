@@ -2,7 +2,7 @@
 Date : 5th June, 2021 */
 
 
-/* Enter a decimal number. Convert it in binary*/
+/* Enter a decimal number. Convert it in binary */
 
 
 #include<stdio.h>
