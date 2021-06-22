@@ -13,8 +13,6 @@ int SetBit(int num, int n)
     int mask;
     mask = 1 << n;
 
-
-    int bit;
     num = num | mask;
     return num;
 }
