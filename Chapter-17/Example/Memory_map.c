@@ -1,7 +1,7 @@
 /*  Author : Chaitaly Kundu
     Date: 5th May, 2021 */
 
-/* Memory map of structure element */
+/* Memory map of structure element . Print the address*/
 
 #include<stdio.h>
 

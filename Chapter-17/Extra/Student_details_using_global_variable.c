@@ -11,12 +11,16 @@ struct student{             // student is structure tag
     float mark;
     char fav_character;
     char full_name[30];     // using array
+    char *name;
 };
 
 struct student ani , bishal, chandan;
 
 int main()
 {
+
+    ani.name = "Ani";
+
         // id Details
     ani.id = 1;
     bishal.id = 2;
@@ -39,8 +43,9 @@ int main()
 
 
         // Ani's Detail
+    printf("1st stusent is %s\n", ani.name);
     printf("Ani's i no. %d\n", ani.id);
-    printf("Ani's full name is %c\n", ani.full_name);
+    printf("Ani's full name is %s\n", ani.full_name);
     printf("Ani got %.2f marks\n", ani.mark);
     printf("Ani's favourite character is %c\n",ani.fav_character);
     printf("\n\n");
