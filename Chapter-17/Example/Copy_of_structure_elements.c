@@ -8,31 +8,24 @@
 
 struct student{             // student is structure tag
     int id;
+    char full_name[30];     // using array
     float mark;
     char fav_character;
-    char full_name[30];     // using array
 };
 
 struct student ani , bishal, chandan, student3;
 
 int main()
 {
-    ani.id = 1;
-    bishal.id = 2;
-    chandan.id = 3;
 
-    ani.mark = 8.7;
-    bishal.mark = 6.8;
-    chandan.mark = 9.6;
+        // Declare and initialize variable
+    struct student ani = {1, "Ani Pal", 8.7, 'A'};
+    struct student bishal = {2, "Bishal Dubey", 8.7, 'B'};
+    struct student chandan = {3, "Chandan Roy", 8.5, 'C'};
 
-    ani.fav_character = 'z';
-    bishal.fav_character = 'y';
-    chandan.fav_character = 'x';
 
-    // copy names
+        // To copy strings we should use strcpy
     strcpy(ani.full_name,"Ani Paul");
-    strcpy(bishal.full_name,"Bishal Kumar");
-    strcpy(chandan.full_name,"Chandan Roy");
 
     printf("Ani's i no. %d\n", ani.id);
     printf("Ani's full name is %s\n", ani.full_name);
@@ -53,6 +46,6 @@ int main()
 
     // Chandan's data is copied to student3
     student3 = chandan;
-    printf(" Chandan's i no. %d\n Chandan's full name is %s\n Chandan got %.2f marks\n Chandan's favourite character is %c\n", student3.id, student3.full_name, student3.mark, student3.fav_character );
+    printf(" Student3's Details\n\t id no. %d\n\t full name is %s\n\t marks %.2f\n\t favourite character is %c\n", student3.id, student3.full_name, student3.mark, student3.fav_character );
     return 0;
 }
