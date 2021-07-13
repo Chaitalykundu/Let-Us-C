@@ -4,14 +4,14 @@
 #include<iostream>
 using namespace std;
 typedef struct abc{
-    int x;
-    int y;
+    int a;
+    char b;
+    int c;
 }st;
 
 int main(){
 
-    st a = {0,1};
-    st *p = &a;
-    cout << p->y << " " << p->x;
+    st x = {0,1};
+    cout << "Size of x is " << sizeof(x);           // OutPut : 12 (4+1+3+4)
     return 0;
 }
